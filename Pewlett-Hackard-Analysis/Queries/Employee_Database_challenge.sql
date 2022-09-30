@@ -31,7 +31,7 @@ GROUP BY ut.title
 ORDER BY ut.title DESC;
 
 
---query to create a Mentorship Elegibility table
+--query to create a Mentorship Eligibility table
 SELECT DISTINCT ON (e.emp_no) e.emp_no, 
 	   e.first_name,
 	   e.last_name,
@@ -39,7 +39,7 @@ SELECT DISTINCT ON (e.emp_no) e.emp_no,
 	   de.from_date,
 	   de.to_date,
 	   tl.title
-INTO mentorship_elegibility
+INTO mentorship_eligibility
 FROM employees as e
 INNER JOIN dept_emp as de
 ON (e.emp_no = de.emp_no)
