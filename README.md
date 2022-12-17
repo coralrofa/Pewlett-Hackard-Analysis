@@ -2,7 +2,7 @@
 
 ## Overview of Analysis
 
-Six separate databases containing employee and organizational data from Pewlett-Hackard were XXXXX to determine the number of employees that qualify for retirement. An ERD was put together to facilitate identification of commonalities within the databases in order to retrieve employee number, names, birthdates, hiring dates, titles and department information.  
+Six separate databases containing employee and organizational data from Pewlett-Hackard were analized to determine the number of employees that qualify for retirement. An ERD was put together to facilitate identification of commonalities within the databases in order to retrieve employee number, names, birthdates, hiring dates, titles and department information.  
 
 [Database Diagram](EmployeeDB.png)
 
